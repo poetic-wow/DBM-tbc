@@ -161,3 +161,8 @@ DBM_VASHJ_SPECWARN_CORE				= "You have the Tainted Core!";
 
 DBM_VASHJ_WARN_PHASE3				= "*** Shield 4/4 down - Phase 3 ***";
 DBM_VASHJ_WARN_ENRAGE				= "*** Enrage in %s %s ***";
+
+DBM_VASHJ_TOXIC_SPORE				= "Toxic Spore" 
+
+
+

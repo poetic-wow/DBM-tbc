@@ -84,6 +84,8 @@ function Vashj:OnEvent(event, arg1)
 	if event == "SPELL_AURA_APPLIED" then
 		if arg1.spellId == 38132 then
 			self:SendSync("Loot"..tostring(arg1.destName))
+		elseif arg1.spellId == 38575 and arg1.destName == UnitName("player") then
+			self:AddSpecialWarning(DBM_VASHJ_TOXIC_SPORE)
 		end
 	elseif event == "SPELL_CAST_SUCCESS" then
 		if arg1.spellId == 38280 then
